@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Página Web</title>
+</head>
+
+<body>
+
+    <!-- EL HEADER  -->
+    <header>
+        <div class="logo">
+            <h1>Curriculum Vitae</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="intereses.html">Intereses personales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ESTA ES LA BARRA DE NAVEGACION -->
+    <nav class="sidebar">
+        <div class="logo">
+            <h1>Estudiante</h1>
+        </div>
+        <img src="/imagenes/perfil.png" alt="yo">
+        <h2>Cédula:
+            131662300
+        </h2>
+        <h2>Nombres:
+            Hansel Adrián
+        </h2>
+        <h2>Apellidos:
+            Alcivar Fuentes
+        </h2>
+        <br>
+        <h3>Descubre más.</h3>
+        <a href="intereses.html">Intereses personales</a>
+    </nav>
+
+    <aside class="right-sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">&#9654;</div>
+      
+    </aside>
+    <!-- Hacemos uso de Java Script para lograr dinamismo en la barra derecha -->
+
+    <script src="scripts.js"></script>
+    <!-- Creo un contenedor para la informacion del medio, que estaría centrada en el body. -->
+    <div class="container">
+        <!-- Contenido del currículum vitae -->
+        <main>
+            <section id="informacion-personal">
+                <h2>Información Personal</h2>
+                <p>Nombres: Hansel Adrián</p>
+                <p>Apellidos: Alcívar Fuentes</p>
+                <p>Email: halcivar3030@utm.edu.ec</p>
+                <p>Email personal: hanseladrianalcivarfuentes@gmail.com</p>
+                <p>Celular: +593 96 705 3608</p>
+                <p>Teléfono: 2420 368</p>
+            </section>
+
+            <section id="educacion">
+                <h2>Educación</h2>
+                <p>Escuela: Unidad Fiscal "Colón Manabí".</p>
+                <p>Colegio: Técnico "Paulo Emilio Macias Sabando".</p>
+                <p>Grado en Informática - Curso "TECNOELEC" (2019).</p>
+                <P>Carrera: Ingeniería en Software - Universidad Técnica de Manabí.</P>
+            </section>
+
+            <section id="Reconocimientos">
+                <h2>Reconocimientos</h2>
+                <P>Reconocido con honores en la unidad "Colón Manabí" por su alto desempeño académico.</P>
+                <p>Abanderado de honor en el Técnico "Paulo Emilio Macias Sabando". </p>
+                <p>Diploma por desempeño en "TECNOELEC" (2019).</p>
+                <P>Becado en Curso informática "TECNOELEC" por su excelencia de desempeño.</P>
+            </section>
+
+            <section id="experiencia">
+                <h2>Experiencia Laboral</h2>
+                <p>Desarrollador de software en UNIVERSIDAD TECNICA DE MANABI - Trabajé en proyectos emocionantes y aprendí nuevas habilidades.</p>
+                <P>Diseñador y director de proyecto del sistema "Electricidad para todos", CNEL (2025-2036)</P>
+                <p></p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 UTM CNEL SYSMART - Currículum Personal</p>
+    </footer>
+
+</body>
+
+</html>
